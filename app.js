@@ -4,60 +4,67 @@ import './style.css';
 function App() {
   return (
     <div className="resume">
-      <h1>Pothana Sathvika</h1>
-      <p>Nizampet | Hyderabad, 500090</p>
-      <p>Ph.no: 6304483269 | Email: sathvika1864gs@gmail.com</p>
-      <p>
-        LinkedIn: <a href="https://www.linkedin.com/in/sathvika-pothana-139339293" target="_blank" rel="noreferrer">sathvika-pothana</a>
-      </p>
-
-      <h2>Professional Summary</h2>
-      <p>
-        Motivated and detail-oriented Information Technology undergraduate with a strong foundation in programming...
-      </p>
+      <h1>Lakshmi Sahithi P</h1>
+      <p>2nd Year B.Tech, Information & Technology</p>
+      <p>BVRIT Hyderabad College of Engineering for Women</p>
+      <p>Phone: +91 – 9100180208 | Email: 23wh1a1239@bvrithyderabad.edu.in</p>
+      <p>Address: Hyderabad</p>
 
       <h2>Education</h2>
-      <p><strong>B.Tech in Information Technology</strong><br />
-        BVRIT Hyderabad College of Engineering for Women<br />
-        August 2023 – Present
+      <ul>
+        <li><strong>2023–2027:</strong> B.Tech, IT – BVRIT for Women – CGPA: 8.58/10</li>
+        <li><strong>2023:</strong> 12th – State Board – 97.6%</li>
+        <li><strong>2021:</strong> 10th – CBSE – 94%</li>
+      </ul>
+
+      <h2>Internships & Trainings</h2>
+      <ul>
+        <li>
+          <strong>Jul’24 – Data Science Intern, LnT (Epic 3 Pvt Ltd.), Chennai:</strong>
+          <br />Developed an incident severity classifier using ML on AMTL Toll Plaza accident data.
+          <br />Applied CRISP-DM; built API-connected frontend using a Random Forest model.
+        </li>
+        <li>
+          <strong>Dec’24 – Google Gen AI Virtual Internship:</strong>
+          <br />Hands-on with Gen AI tools and models (PaLM 2), prompt engineering, ethical AI, and responsible practices.
+        </li>
+      </ul>
+
+      <h2>Academic Projects</h2>
+      <p>
+        <strong>MLOps – B.Tech Project (Apr’25):</strong>
+        <br />Built a web scraping pipeline using SeleniumBase to collect and analyze ML course data from Udemy.
+        <br />Trained regression/classification models to predict course price and success metrics.
+        <br />Visualized data via GColab using heat maps and regression analysis.
       </p>
 
       <h2>Technical Skills</h2>
       <ul>
-        <li>Programming Languages: C, Python, Java</li>
-        <li>Cybersecurity: Cryptography basics, Password best practices</li>
-        <li>Tools & Platforms: Power BI, Tableau, Julia</li>
-        <li>Concepts: Data Visualization, UI/UX, AI, ML</li>
+        <li><strong>Languages:</strong> C, Python (Basics), Java</li>
+        <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, MySQL</li>
       </ul>
 
-      <h2>Soft Skills</h2>
-      <p>Logical Thinking, Empathy, Teamwork, Creativity, Resilience, Curiosity, Positive Attitude</p>
-
-      <h2>Certifications</h2>
+      <h2>Certificates</h2>
       <ul>
-        <li>Semiconductor Fabrication – Purdue University & Intel</li>
-        <li>Goldman Sachs Job Simulation – Forage</li>
-        <li>Introduction to Julia – Infosys Springboard</li>
-        <li>Data Visualization with Power BI and Tableau</li>
-        <li>Great AppSec Hackathon</li>
-        <li>Indo Dutch Cyber Security School</li>
-        <li>Pure Earth Environment Conference – Nov 2023</li>
+        <li>Semiconductor Fabrication – Purdue University</li>
+        <li>Energy Literacy – Energy Swaraj Foundation</li>
+        <li>Failathon, IITH BVR SCIENT Entrepreneurship</li>
+        <li>MS Excel – EDUCBA</li>
+        <li>Julia – Infosys</li>
+        <li>Python (Basic) – HackerRank</li>
+        <li>Demux Hackathon</li>
+        <li>Power BI & Data Visualization</li>
+        <li>Innovation Day</li>
       </ul>
 
-      <h2>Languages</h2>
-      <p>Telugu – Native, English – Proficient</p>
-
-      <h2>Activities & Memberships</h2>
-      <p>Magnum Opus – Art Club, CSI – Computer Society of India</p>
-
-      <h2>Extracurricular Participation</h2>
-      <p>Presented at Pure Earth Environment Conference (Nov 24–25, 2023)</p>
+      <h2>Paper Presentations</h2>
+      <ul>
+        <li>Infinite Insights: Ramanujan's Mathematical Odyssey in the 21st Century</li>
+        <li>Effects of Pharma Industries on Groundwater</li>
+      </ul>
 
       <h2>Hobbies</h2>
-      <p>Singing, Music, Reading, Drawing, Painting</p>
-
-      <h2>Areas of Interest</h2>
-      <p>AI/ML, Cybersecurity, UI/UX and Front-End</p>
+      <p>Reading novels, numismatics, singing, dancing</p>
     </div>
   );
 }
